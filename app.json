@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index",
+    "pages/components/image/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "小程序组件",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fbf9fe"
+  }
+}
