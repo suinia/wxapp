@@ -14,7 +14,7 @@ Page({
         })
     },
     htmlParseImageTab: function (e) {//富文图片点击预览
-        var url = e.currentTarget.dataset.id,
+        var url = e.currentTarget.dataset.src,
             urls = [];
         for (var p in this.data.htmlParseImageStyle) {
             urls.push(p)
