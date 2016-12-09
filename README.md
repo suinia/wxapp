@@ -10,3 +10,6 @@
 
 ## 富文本解析
 **小程序没有提供富文本解析, 服务端可以转换为json(当然前端也可以有个js库解决[html2json](https://github.com/jxck/html2json.git))在小程序里面用对应的组件适配**
+## 效果图
+![demo](http://7xkcpo.com1.z0.glb.clouddn.com/QQ20161209-1@2x.png)
+![demo](http://7xkcpo.com1.z0.glb.clouddn.com/QQ20161209-0@2x.png)

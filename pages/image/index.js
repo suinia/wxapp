@@ -1,5 +1,5 @@
-var apiUrls = require('../../../services/api_urls.js'),
-    request = require('../../../services/index.js');
+var apiUrls = require('../../services/api_urls.js'),
+    request = require('../../services/index.js');
 
 Page({
     data: {
@@ -20,7 +20,6 @@ Page({
 	},
     //图片加载事件:全屏宽度750rpx减去padding值80rpx;计算出比率得到高度,用图片的URL作为key来设置data
 	imageLoad: function(e){
-        console.dir(e)
 		var id = e.currentTarget.dataset.id,
 			img_w = e.detail.width,
 			img_h = e.detail.height,
@@ -35,7 +34,7 @@ Page({
     //获取图片
     onLoad: function (options) {
         var self = this;
-        request.get(apiUrls.getTopic, {
+        request.get(apiUrls.getImageContent, {
             id: '1'
         }).then(function (res) {
             self.setData({
