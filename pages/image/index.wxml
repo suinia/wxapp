@@ -4,7 +4,7 @@
         <block wx:for="{{topic.image_list}}" wx:key="image">
             <view class="topic__content__item">
                 <view class="topic__content__item__title">{{item.title}}</view>
-                <image bindtap="imageTab" data-id="{{item.url}}" style="{{imageStyleData[item.url]}}" bindload="imageLoad" class="topic__content__item__img" src="{{item.url}}"/>
+                <image bindtap="imageTab" data-src="{{item.url}}" style="{{imageStyleData[item.url]}}" bindload="imageLoad" class="topic__content__item__img" src="{{item.url}}"/>
             </view>
         </block>   
     </view>
