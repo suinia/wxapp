@@ -1,0 +1,16 @@
+<template name="swiper">
+  <view class="container" style="width:{{swiper.itemWidth}}rpx">
+    <view class="swiper-container" 
+      catchtouchstart="swiperHandlerTouch" 
+      catchtouchmove="swiperHandlerMove" 
+      catchtouchcancel="swiperHandlerMoveEnd" 
+      catchtouchend="swiperHandlerMoveEnd" 
+      style="width:{{swiper.itemWidth}}rpx;transform:translate({{swiper.translateX}}px, {{swiper.translateY}}px); transition-duration:{{swiper.speed}}ms;">
+      <block wx:for="{{swiper.data}}" wx:key="banner">
+        <view class="swiper-slide" style="width:{{swiper.itemWidth}}rpx">
+          <image class="swiper-img" mode="aspectFill" src="{{item.url}}" />
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

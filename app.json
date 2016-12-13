@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/swiper/index",
     "pages/html/index",
     "pages/image/index"
   ],

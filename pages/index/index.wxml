@@ -4,6 +4,11 @@
         <view class="head__desc">通过API实现一些效果</view>
     </view>
     <view class="body">
+        <navigator url="../swiper/index" class="widget">
+            <text class="widget__name">swiper轮播</text>
+            <image class="widget__arrow" src="../../resources/arrow.png" background-size="cover" />
+            <view class="widget__line"></view>
+        </navigator>
         <navigator url="../image/index" class="widget">
             <text class="widget__name">图片高宽适配</text>
             <image class="widget__arrow" src="../../resources/arrow.png" background-size="cover" />

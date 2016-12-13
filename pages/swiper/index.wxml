@@ -1,0 +1,2 @@
+<import src="../components/swiper/index.wxml"/>
+<template is="swiper" data="{{swiper: swiper}}"/>
