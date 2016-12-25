@@ -8,7 +8,15 @@
 }
 view.html-parse__p,
 view.html-parse__div,
-view.html-parse__video {
+view.html-parse__video,
+view.html-parse__section,
+view.html-parse__header,
+view.html-parse__footer,
+view.html-parse__nav,
+view.html-parse__article,
+view.html-parse__aside,
+view.html-parse__details,
+view.html-parse__figure {
     display: block;
 }
 .html-parse__img {
