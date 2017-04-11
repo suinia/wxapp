@@ -1,4 +1,3 @@
-var Promise = require('./es6-promise.min.js');
 
 function get(url, params) {
 	var params = params || null;
